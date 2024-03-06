@@ -6,11 +6,11 @@
           "config":{ "maxLambdaSize":"15mb", "runtime":"python3.9"}
         }
            ],
-        "routers":[
-          {
-            "src":"/(.*)",
-            "dest":"project/wsgi.py"
-          }
-        ]
+          "routes": [
+            {
+              "src": "/(.*)",
+              "dest": "project/wsgi.py"
+            }
+          ]
     }
     
